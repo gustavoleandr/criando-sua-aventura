@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O mapa do tesouro</title>
+</head>
+<body>
+    <h1>O grande tesouro:</h1>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Em um dia comum de aula, você entrou na biblioteca, após procurar por um livro bom, você achou um mapa antigo sobre um tesouro. Após ler e entender sobre o que se tratava, você decide segui-lo para achar o tesouro.</p>
+            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você começa a buscar o tesouro pelo Rio de Janeiro, subindo no Pico Da Tijuca.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar pista no pico</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Após seguir o mapa, você achou outras pistas, as quais indicavam que o resto estava no Amazonas.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir para Amazonas</button>
+            <button class="btn-proximo" data-proximo="6">Desistir da aventura</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Após ir para o Amazonas, você se depara com a dica: "O resto está em um lugar que traz paz ao seu coração." Você apenas consegue pensar em alguma praia.</p>
+            <button class="btn-proximo" data-proximo="7">Ir para a Praia</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>E ao chegar na praia, você encontra o resto do mapa. Seguindo-o, você acha o lendário Tesouro.</p>
+            <button class="btn-proximo" data-proximo="8">Você achou o Tesouro!</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
